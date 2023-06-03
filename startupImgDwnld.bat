@@ -1,1 +1,0 @@
-@C:/Users/Tejas/AppData/Local/Microsoft/WindowsApps/python3.11.exe C:\Users\Tejas\My_Projects\startupImgDwnld.py
