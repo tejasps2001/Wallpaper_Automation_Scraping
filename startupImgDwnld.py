@@ -8,8 +8,10 @@ import pyautogui
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+# Wallhaven link to download 16:9 images with 'random' filter.
 wallsLink = "https://wallhaven.cc/search?categories=111&purity=100&ratios=16x9&sorting=random&order=desc"
 home_directory = os.path.expanduser('~')
+# Stores in a temp folder in the home directory.
 targetFolder = os.path.join(home_directory, 'Temp')
 try:
     os.makedirs(targetFolder)
